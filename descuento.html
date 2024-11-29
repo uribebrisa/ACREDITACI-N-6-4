@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcularPrecioConDescuento(precio, descuento) {
+    return precio - (precio * descuento / 100);
+}
+let precio = prompt("Ingresa el precio inicial:");
+let descuento =prompt("Ingresa el porcentaje de descuento:");
+let precioFinal = calcularPrecioConDescuento(precio, descuento);
+console.log("El precio final es " + precioFinal);
+    </script>
+</body>
+</html>
